@@ -505,11 +505,15 @@ $(document).ready(function() {
     });
   }
 
+  /* --- This is because there is no expandable hotspot, so need to listen for clicks....
+
 document.querySelector(".animation-substation").addEventListener("click", function() {
     this.classList.toggle("open");
     document.querySelector(".hotspot-4-1").classList.toggle("animate");
     document.querySelector(".hotspot-4-2").classList.toggle("animate");
     document.querySelector(".hotspot-4-3").classList.toggle("animate");
 });
+
+  */
 
 });
