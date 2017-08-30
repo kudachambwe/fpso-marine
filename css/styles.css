@@ -275,7 +275,7 @@ b {
     }
     .infographic .infographic-section.section1 .image1 {
         height: 70vw;
-        background-image: url(../img/mobile/onshore-01.png);
+        /* background-image: url(../img/mobile/onshore-01.png); */
         background-position-y: -20vw;
     }
 
@@ -510,43 +510,6 @@ b {
         left: -18px;
         background-color: white;
         border-radius: 4px;
-    }
-
-    #hotspot-4-3, #hotspot-4-2, #hotspot-4-1 {
-        display: block;
-        left: 540px;
-        top: 565px;
-        transform: scale(0.01);
-        /*TODO: add -webkit- and other variants of transition (transfrom too?)*/
-        -o-transition: 0.4s;
-        -moz-transition: 0.4s;
-        -webkit-transition: 0.4s;
-        transition: 0.4s;
-    }
-
-    #hotspot-4-3 {
-        width: unset;
-        height: unset;
-    }
-
-    #hotspot-4-1.animate {
-        left: 637px;
-        top: 610px;
-        transform: scale(1);
-        transition: 0.3s;
-    }
-
-    #hotspot-4-2.animate {
-        left: 637px;
-        top: 646px;
-        transform: scale(1);
-    }
-
-    #hotspot-4-3.animate {
-        left: 637px;
-        top: 683px;
-        transform: scale(1);
-        transition: 0.5s;
     }
 
 
